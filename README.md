@@ -1,6 +1,6 @@
 # Learning the eventual law of a parametric Frobenius number
 
-MM845 — Tópicos de Geometria III (IMECC–UNICAMP), individual project. Author: Matias Zimmermann.
+MM845 — Tópicos de Geometria III (IMECC–UNICAMP). Matias Zimmermann.
 
 For the affine family `A(t) = (5t+2, 5t+3, 7t+1, 8t+5)`, the Roune–Woods theorem guarantees that the Frobenius
 number `F(t)` (equivalently, by Kannan's identity, the covering radius of a fixed simplex by a moving lattice) is
