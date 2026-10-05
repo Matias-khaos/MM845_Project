@@ -15,9 +15,6 @@ repository contains the code that:
 * replicates the pipeline on further affine families and on a quadratic family;
 * studies the Kannan lattices directly: lattice width and flatness, predicting the covering radius from lattice shape
   (MLP, Deep Sets, Set Transformer), and blind recovery of the period from stacking features.
-
-The report is in `report/report.pdf`, and its LaTeX source is in `report/`.
-
 ## Repository layout
 
 ```
