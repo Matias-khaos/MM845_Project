@@ -3,17 +3,6 @@
 MM845 — Tópicos de Geometria III (IMECC–UNICAMP)  
 Matias Zimmermann
 
-This repository contains the notebook and report for the MM845 project on theorem-informed learning of an eventual parametric Frobenius law and its lattice-geometric interpretation.
-
-## Repository contents
-
-- `MM845_frobenius_project.ipynb` — complete computational notebook.
-- `requirements.txt` — Python dependencies.
-- `report/MM845_report.pdf` — five-page main report followed by references and appendices.
-- `report/MM845_report.tex` — LaTeX source.
-- `report/figures/` — figures used by the report.
-- `results/` — created automatically when the notebook is executed.
-
 ## Set up a virtual environment
 
 Python 3.11–3.13 is recommended.
@@ -115,24 +104,3 @@ The exact arithmetic portions are deterministic: Frobenius labels, structured Mo
 The neural models are seeded with global seed `20261001` plus fixed per-model seeds. Floating-point losses may vary slightly across PyTorch/BLAS versions and hardware, but the qualitative comparisons in the report should remain the same.
 
 The reference executed run used Google Colab with Python 3.13.15, NumPy 2.1.3, and PyTorch 2.11.0+cpu. A later non-neural verification run was also performed outside Colab with newer NumPy/SciPy/scikit-learn versions and reproduced the deterministic outputs.
-
-## Building the report
-
-The report is already included as `report/MM845_report.pdf`. To rebuild it, compile `report/MM845_report.tex` from inside the `report/` directory so the relative `figures/` paths resolve correctly.
-
-## GitHub submission requirement
-
-Before submission, make this directory a public or evaluator-accessible GitHub repository and replace the placeholder repository URL in `report/MM845_report.tex` with the actual URL. Recompile the PDF after changing it.
-
-A typical publication sequence is:
-
-```bash
-git init
-git add .
-git commit -m "MM845 Frobenius project"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/mm845-parametric-frobenius.git
-git push -u origin main
-```
-
-Then set the `\repourl` macro in the report to that exact repository URL and rebuild the PDF.
