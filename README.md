@@ -15,13 +15,6 @@ repository contains the code that:
 * replicates the pipeline on further affine families and on a quadratic family;
 * studies the Kannan lattices directly: lattice width and flatness, predicting the covering radius from lattice shape
   (MLP, Deep Sets, Set Transformer), and blind recovery of the period from stacking features.
-## Repository layout
-
-```
-cloud.ipynb          the complete, self-contained experiment notebook (all results in the report)
-requirements.txt     Python dependencies
-results/             created by the notebook: figures (fig*.png) and the dataset frobenius_family.csv
-report/              report.tex, figures/ (notebook figures used in the report), report.pdf
 ```
 
 ## 1. Set up the virtual environment
